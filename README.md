@@ -2,7 +2,7 @@
 
 Engineering Lead | Polyglot Backend Engineer | Distributed Systems | End-to-End Delivery
 
-Backend engineer with 7+ years of experience building scalable, high-performance systems across InsurTech, PropTech, and EdTech domains. Experienced in leading cross-functional teams, driving architecture decisions, and delivering end-to-end solutions from requirement gathering to production.
+Backend engineer with 8+ years of experience building scalable, high-performance systems across InsurTech, PropTech, and EdTech domains. Experienced in leading cross-functional teams, driving architecture decisions, and delivering end-to-end solutions from requirement gathering to production.
 
 Passionate about distributed systems, event-driven architectures, backend performance optimization, and building reliable cloud-native platforms.
 
@@ -56,40 +56,101 @@ Passionate about distributed systems, event-driven architectures, backend perfor
 
 ---
 
-# 📌 Featured Projects
+# 📌 Public Projects
 
 ## 🔹 AI Lead Scoring System (RAG-based)
 🔗 https://github.com/Pratanu123/lead-scoring
 
-Production-grade AI Lead Scoring platform leveraging Retrieval-Augmented Generation (RAG), vector search, distributed processing, and scalable backend architecture.
+Local Docker, production-ready AI lead scoring stack: CRM-style ingestion, async RAG scoring, authenticated API, WebSocket job updates, a minimal web UI, and provisioned Grafana dashboards.
+
+### Description
+Ingests leads, queues embed/score jobs asynchronously, and returns live job status over WebSockets. Uses Postgres + pgvector for vector search, Redis for rate limiting and job coordination, and optional remote LLM/embedding providers with a local heuristic fallback. Includes API-key auth, Prometheus metrics, Grafana dashboards, and an OpenSearch log pipeline.
 
 ### Tech Stack
-- Golang
-- Docker
+- Golang (API + worker)
+- TypeScript (web UI)
+- PostgreSQL + pgvector
 - Redis
-- PostgreSQL + PGVector
-- Kafka
-- REST APIs
+- Docker
+- Prometheus + Grafana
+- OpenSearch
 
 ### Highlights
-- AI-driven lead scoring and enrichment workflows
-- Distributed event-driven architecture
-- Vector similarity search using PGVector
-- Scalable microservices design
-- Optimized for high-throughput backend processing
+- Async embed/score pipeline with WebSocket status updates
+- Vector similarity search with pgvector
+- API key auth and Redis rate limits
+- Outcome feedback loop for RAG quality
+- Full local observability (Prometheus, Grafana, OpenSearch)
+
+---
+
+## 🔹 Ticket Triage RAG
+🔗 https://github.com/Pratanu123/ticket-triage-rag
+
+Self-hosted support ticket triage using retrieval-augmented generation, confidence-based human escalation, and full observability — runs entirely locally with no external API keys.
+
+### Description
+Retrieves relevant knowledge-base docs from ChromaDB, classifies tickets with a local Ollama model, drafts a reply when confidence is high, and escalates otherwise. Postgres is the source of truth; OpenSearch provides search/audit history; Grafana and Prometheus track latency and auto-resolve vs escalate rates. Includes a React dashboard for creating tickets and reviewing escalations.
+
+### Tech Stack
+- Python (FastAPI)
+- React
+- Ollama (llama3.1 + nomic-embed-text)
+- ChromaDB
+- PostgreSQL
+- OpenSearch
+- Prometheus + Grafana
+- Docker Compose
+
+### Highlights
+- Confidence-gated auto-reply vs human escalation
+- Fully local RAG stack (no API keys)
+- Audit trail via OpenSearch
+- Provisioned Grafana observability
+- React UI for triage and override workflows
 
 ---
 
 ## 🔹 Laravel SaaS Boilerplate
+🔗 https://github.com/Pratanu123/laravel-saas-boilerplate
 
-Scalable Laravel 12 SaaS starter kit with:
-- Dockerized setup
-- OAuth2 Authentication
-- Redis caching
-- RBAC support
-- Production-ready architecture
+Laravel 13 multi-tenant SaaS API starter with Passport auth, Spatie RBAC, billing boundary, OpenAPI docs, admin UI, and tests.
 
-👉 More production-grade backend and distributed systems projects coming soon.
+### Description
+A shared-database multi-tenant API on Laravel 13 / PHP 8.3+ with tenant resolution (header, domain, subdomain), role-based access control, a swappable billing gateway (fake default + Stripe stub), Scramble OpenAPI docs, and a small session-based landlord admin console. Runnable under Sail with MySQL and Redis, backed by tests that catch wiring regressions.
+
+### Tech Stack
+- PHP 8.3+ / Laravel 13
+- Laravel Passport
+- Spatie Permission (RBAC)
+- MySQL + Redis (Sail)
+- Scramble (OpenAPI)
+- PHPUnit
+- Blade admin UI
+
+### Highlights
+- Shared-DB tenancy with `tenant_id` isolation
+- Passport personal access tokens
+- Platform admin / admin / user RBAC
+- Billing gateway boundary (subscribe/cancel)
+- OpenAPI UI at `/docs/api`
+
+---
+
+## 🔹 Notification Engine
+🔗 https://github.com/Pratanu123/notification-engine
+
+Early-stage public repository for a notification engine — scaffolding in place; implementation and docs are next.
+
+### Description
+Placeholder public project intended for a reusable notification delivery service (multi-channel messaging, templating, and reliable dispatch). Currently contains an initial README only; more architecture and code will land here as the project develops.
+
+### Tech Stack
+- TBD (repository just initialized)
+
+### Highlights
+- Public scaffold for upcoming notification-platform work
+- Follow the repo for architecture notes and implementation updates
 
 ---
 
@@ -97,6 +158,7 @@ Scalable Laravel 12 SaaS starter kit with:
 
 - 💼 LinkedIn: https://www.linkedin.com/in/pratanu-khajanchi-003aa6140/
 - 📧 pratanukhajanchi@gmail.com
+- 🐙 GitHub: https://github.com/Pratanu123
 
 ---
 
