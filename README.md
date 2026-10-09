@@ -1,165 +1,147 @@
-# 👋 Hi, I'm Pratanu Khajanchi
+<div align="center">
 
-Engineering Lead | Polyglot Backend Engineer | Distributed Systems | End-to-End Delivery
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:1D4ED8,100:06B6D4&height=210&section=header&text=Pratanu%20Khajanchi&fontSize=42&fontColor=FFFFFF&fontAlignY=36&desc=Backend%20Engineering%20%7C%20Distributed%20Systems%20%7C%20Applied%20AI&descAlignY=59&descSize=15" alt="Pratanu Khajanchi profile banner" width="100%" />
 
-Backend engineer with 8+ years of experience building scalable, high-performance systems across InsurTech, PropTech, and EdTech domains. Experienced in leading cross-functional teams, driving architecture decisions, and delivering end-to-end solutions from requirement gathering to production.
+<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2600&pause=850&color=38BDF8&center=true&vCenter=true&width=760&lines=Building+reliable+backend+systems;Turning+AI+ideas+into+useful+workflows;Exploring+Forward+Deployed+Engineering;Designing+systems+from+API+to+observability" alt="Animated intro: backend engineering, applied AI, and FDE" /></a>
 
-Passionate about distributed systems, event-driven architectures, backend performance optimization, and building reliable cloud-native platforms.
+<p>
+  <a href="https://www.linkedin.com/in/pratanu-khajanchi-003aa6140/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+  <a href="https://github.com/Pratanu123?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub projects" /></a>
+</p>
 
----
+</div>
 
-# 💻 Technical Expertise
+***
+👋 About me
 
-## Languages & Frameworks
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-E74430?style=flat&logo=laravel&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+I'm a backend engineer and engineering lead with 8+ years of experience building APIs, distributed systems, and production-facing platforms across InsurTech, PropTech, and EdTech.
 
----
+I enjoy taking problems from architecture and implementation through deployment and observability. Lately, I'm expanding further into practical AI applications and Forward Deployed Engineering—connecting software, AI workflows, and real user problems.
 
-## Distributed Systems & Messaging
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+🔭 Building: backend services, AI-assisted tools, and data workflows
+🧠 Interests: distributed systems, event-driven architecture, applied AI, and customer-facing engineering
+🧭 Engineering approach: pragmatic design, measurable behaviour, reliability, and human oversight where it matters
 
----
+🎓 Learning in progress
 
-## Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
+PGP in Forward Deployed Engineering (FDE) & Applied AI — learning through IIT Madras (IITM) and FDE Academy.
 
----
+Currently developing skills around applied AI systems, workflow integration, and delivering solutions close to customer needs.
 
-# 🧩 Domains I’ve Worked In
+***
+🚀 Featured projects
 
-- 🛡️ InsurTech  
-- 🏡 PropTech  
-- 📚 EdTech  
-- ⚙️ Distributed Systems & Microservices  
-- 🤖 AI-powered Automation & Voice Workflows  
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+AI Data Quality Investigator
 
-# 🚀 Key Engineering Highlights
+A data-quality investigation app that profiles CSVs, runs deterministic validation rules, explains selected findings with an optional LLM, and lets users review cleaning proposals before approval.
 
-- Led engineering teams and delivered multiple large-scale projects including AutoNinja (V1/V2), ANPB, HRMS, and NinjaOne.
-- Built event-driven systems using Kafka and AWS SNS/SQS for scalable asynchronous processing.
-- Designed CI/CD pipelines using Docker, Jenkins, and GitHub Actions.
-- Integrated AI-powered voice bot workflows to automate customer interactions.
-- Optimized backend systems, APIs, and database queries for performance and scalability.
-- Worked extensively on microservices architecture, distributed systems, and production monitoring.
+Stack: Python · Pandas · Streamlit · LangChain · OpenRouter
 
----
+<a href="https://pratanu-ai-data-quality-investigator.streamlit.app/"><img src="https://img.shields.io/badge/Live%20demo-Open%20app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Open live demo" /></a>
 
-# 📌 Public Projects
+</td>
+<td width="50%" valign="top">
 
-## 🔹 AI Lead Scoring System (RAG-based)
-🔗 https://github.com/Pratanu123/lead-scoring
+AI Lead Scoring System
 
-Local Docker, production-ready AI lead scoring stack: CRM-style ingestion, async RAG scoring, authenticated API, WebSocket job updates, a minimal web UI, and provisioned Grafana dashboards.
+A Go-based lead scoring system exploring asynchronous processing, vector search, API authentication, job status updates, and observability.
 
-### Description
-Ingests leads, queues embed/score jobs asynchronously, and returns live job status over WebSockets. Uses Postgres + pgvector for vector search, Redis for rate limiting and job coordination, and optional remote LLM/embedding providers with a local heuristic fallback. Includes API-key auth, Prometheus metrics, Grafana dashboards, and an OpenSearch log pipeline.
+Stack: Go · PostgreSQL + pgvector · Redis · Docker · Prometheus · Grafana
 
-### Tech Stack
-- Golang (API + worker)
-- TypeScript (web UI)
-- PostgreSQL + pgvector
-- Redis
-- Docker
-- Prometheus + Grafana
-- OpenSearch
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### Highlights
-- Async embed/score pipeline with WebSocket status updates
-- Vector similarity search with pgvector
-- API key auth and Redis rate limits
-- Outcome feedback loop for RAG quality
-- Full local observability (Prometheus, Grafana, OpenSearch)
+Ticket Triage RAG
 
----
+A self-hosted ticket-triage workflow using a local model, knowledge-base retrieval, confidence-based escalation, and an audit trail.
 
-## 🔹 Ticket Triage RAG
-🔗 https://github.com/Pratanu123/ticket-triage-rag
+Stack: Python · FastAPI · Ollama · ChromaDB · PostgreSQL · React
 
-Self-hosted support ticket triage using retrieval-augmented generation, confidence-based human escalation, and full observability — runs entirely locally with no external API keys.
+</td>
+<td width="50%" valign="top">
 
-### Description
-Retrieves relevant knowledge-base docs from ChromaDB, classifies tickets with a local Ollama model, drafts a reply when confidence is high, and escalates otherwise. Postgres is the source of truth; OpenSearch provides search/audit history; Grafana and Prometheus track latency and auto-resolve vs escalate rates. Includes a React dashboard for creating tickets and reviewing escalations.
+Laravel SaaS Boilerplate
 
-### Tech Stack
-- Python (FastAPI)
-- React
-- Ollama (llama3.1 + nomic-embed-text)
-- ChromaDB
-- PostgreSQL
-- OpenSearch
-- Prometheus + Grafana
-- Docker Compose
+A multi-tenant Laravel starter covering tenant isolation, authentication, RBAC, a billing boundary, and API documentation.
 
-### Highlights
-- Confidence-gated auto-reply vs human escalation
-- Fully local RAG stack (no API keys)
-- Audit trail via OpenSearch
-- Provisioned Grafana observability
-- React UI for triage and override workflows
+Stack: PHP · Laravel · MySQL · Redis · OpenAPI
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-## 🔹 Laravel SaaS Boilerplate
-🔗 https://github.com/Pratanu123/laravel-saas-boilerplate
+Notification Engine
 
-Laravel 13 multi-tenant SaaS API starter with Passport auth, Spatie RBAC, billing boundary, OpenAPI docs, admin UI, and tests.
+An early-stage repository for exploring reusable notification delivery. Implementation is in progress.
 
-### Description
-A shared-database multi-tenant API on Laravel 13 / PHP 8.3+ with tenant resolution (header, domain, subdomain), role-based access control, a swappable billing gateway (fake default + Stripe stub), Scramble OpenAPI docs, and a small session-based landlord admin console. Runnable under Sail with MySQL and Redis, backed by tests that catch wiring regressions.
+Focus: reliable dispatch · templates · multi-channel delivery
 
-### Tech Stack
-- PHP 8.3+ / Laravel 13
-- Laravel Passport
-- Spatie Permission (RBAC)
-- MySQL + Redis (Sail)
-- Scramble (OpenAPI)
-- PHPUnit
-- Blade admin UI
+</td>
+<td width="50%" valign="top">
 
-### Highlights
-- Shared-DB tenancy with `tenant_id` isolation
-- Passport personal access tokens
-- Platform admin / admin / user RBAC
-- Billing gateway boundary (subscribe/cancel)
-- OpenAPI UI at `/docs/api`
+Hopscotch Chatbot
 
----
+A Python chatbot project currently under development.
 
-## 🔹 Notification Engine
-🔗 https://github.com/Pratanu123/notification-engine
+Focus: conversational workflows · applied AI
 
-Early-stage public repository for a notification engine — scaffolding in place; implementation and docs are next.
+</td>
+</tr>
+</table>
 
-### Description
-Placeholder public project intended for a reusable notification delivery service (multi-channel messaging, templating, and reliable dispatch). Currently contains an initial README only; more architecture and code will land here as the project develops.
+***
+🧰 Technology toolbox
 
-### Tech Stack
-- TBD (repository just initialized)
+<p>
+  <img src="https://skillicons.dev/icons?i=php,laravel,go,python,react,postgres,mysql,redis,docker,aws,githubactions,jenkins" alt="PHP, Laravel, Go, Python, React, PostgreSQL, MySQL, Redis, Docker, AWS, GitHub Actions, Jenkins" />
+</p>
 
-### Highlights
-- Public scaffold for upcoming notification-platform work
-- Follow the repo for architecture notes and implementation updates
+Backend & architecture: REST APIs · Microservices · Distributed systems · Event-driven design  
+Messaging & data: Kafka · RabbitMQ · PostgreSQL · MySQL · Redis  
+AI & automation: LLM integrations · LangChain · Ollama · OpenRouter · n8n  
+Platform & observability: Docker · AWS · CI/CD · Prometheus · Grafana · OpenSearch
 
----
+***
+🐍 Contribution trail
 
-# 📬 Connect With Me
+> The snake animation is generated by GitHub Actions. The workflow file included with this README must be added to .github/workflows/snake.yml; once it runs successfully, the animation will be published to the output branch.
 
-- 💼 LinkedIn: https://www.linkedin.com/in/pratanu-khajanchi-003aa6140/
-- 📧 pratanukhajanchi@gmail.com
-- 🐙 GitHub: https://github.com/Pratanu123
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pratanu123/Pratanu123/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pratanu123/Pratanu123/output/github-contribution-grid-snake.svg" />
+    <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/Pratanu123/Pratanu123/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+</div>
 
----
+📊 GitHub at a glance
 
-> ⚡ I enjoy building scalable backend systems, designing distributed architectures, and solving complex engineering problems.
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Pratanu123&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pratanu123&layout=compact&hide_border=true&theme=tokyonight" alt="Most-used languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Pratanu123&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" width="70%" />
+</div>
+
+***
+🤝 Let's connect
+
+I'm interested in conversations about backend architecture, distributed systems, applied AI, and Forward Deployed Engineering.
+
+<p>
+  <a href="https://www.linkedin.com/in/pratanu-khajanchi-003aa6140/"><img src="https://img.shields.io/badge/LinkedIn-Pratanu%20Khajanchi-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn profile" /></a>
+  <a href="https://github.com/Pratanu123"><img src="https://img.shields.io/badge/GitHub-Pratanu123-181717?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
+</p>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:1D4ED8,100:0B1220&height=100&section=footer" alt="" width="100%" />
+</div>
