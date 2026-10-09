@@ -154,7 +154,6 @@ An early-stage repository for exploring reusable notification delivery, template
 
 </div>
 
-<sub>If the snake image is missing, open the repository's **Actions** tab and run **Generate contribution snake**. The workflow must publish the SVGs to the `output` branch first.</sub>
 
 ---
 
