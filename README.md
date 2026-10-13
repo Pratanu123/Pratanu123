@@ -84,6 +84,32 @@ Building on backend experience while developing practical skills in applied AI a
 </details>
 
 <details>
+<summary><strong>📦 Inventory Profit Leak Detector</strong> · CrewAI · Multi-Agent Workflow · OpenRouter</summary>
+
+A multi-agent inventory analysis workflow that reviews retail inventory data
+to identify potential profit leaks and operational risks.
+
+- **Inventory Auditor:** analyzes stock levels, recent sales, reorder points,
+  and lead times to identify overstock and stockout risks.
+- **Profit Analyst:** reviews the audit, assesses potential business impact,
+  and prioritizes recommendations.
+- Deployed to CrewAI AMP as a sequential multi-agent workflow.
+
+<p>
+<a href="https://github.com/Pratanu123/inventory-profit-leak-detector">
+<img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&logo=github"
+alt="Source code" />
+</a>
+<a href="https://inventory-profit-leak-detector-eaa9d0fc-e1d-42410e8e.crewai.com">
+<img src="https://img.shields.io/badge/CrewAI%20AMP-Deployed-16A34A?style=for-the-badge"
+alt="CrewAI AMP deployment" />
+</a>
+</p>
+
+**Status:** Deployment is online;
+</details>
+
+<details>
 <summary><strong>⚙️ AI Lead Scoring System</strong> · Go · PostgreSQL + pgvector · Redis</summary>
 
 A backend-focused lead-scoring project exploring asynchronous processing, vector search, authenticated APIs, job status updates, and observability.
