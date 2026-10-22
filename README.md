@@ -18,7 +18,7 @@ I'm a backend engineer and engineering lead with **8+ years of experience** buil
 
 I work across architecture, implementation, deployment, and observability. I'm now deliberately expanding into **Forward Deployed Engineering (FDE) and Applied AI**—connecting customer problems, software engineering, and AI-enabled workflows.
 
-- 🧱 **Strong foundation:** PHP, Laravel, Go, APIs, microservices, event-driven systems
+- 🧱 **Strong foundation:** PHP, Laravel, Go, Python, APIs, microservices, event-driven systems
 - 🤖 **Building toward:** Applied AI, LLM-powered workflows, automation, and customer-facing solution delivery
 - 🎯 **What I value:** useful software, reliable systems, clear trade-offs, and measurable outcomes
 
