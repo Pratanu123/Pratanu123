@@ -110,6 +110,20 @@ alt="CrewAI AMP deployment" />
 </details>
 
 <details>
+<summary><strong>✉️ WhatsApp Chat with n8n </strong> · n8n · AI Workflow · OpenRouter</summary>
+
+AI-powered WhatsApp support bot built with n8n, Meta WhatsApp Cloud API, and Supabase Postgres. Answers FAQs, checks order status, and manages support tickets using OpenRouter/OpenAI.
+
+<p>
+<a href="https://github.com/Pratanu123/whatsapp-chatbot-n8n">
+<img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&logo=github"
+alt="Source code" />
+</a>
+</a>
+</p>
+</details>
+
+<details>
 <summary><strong>⚙️ AI Lead Scoring System</strong> · Go · PostgreSQL + pgvector · Redis</summary>
 
 A backend-focused lead-scoring project exploring asynchronous processing, vector search, authenticated APIs, job status updates, and observability.
